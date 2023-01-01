@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+
+
+}
+
+
+input {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%; /* using only 100% would mean we are using 100% with 10 and 10 px bec of our padding, and we need to adjust for that  */
+    box-sizing: border-box;
+    padding-top: 20px;
+    border: 1px solid rgb(5, 119, 5);
+    
+}
+
+button {
+    background-color: green;
+    color: white;
+    font-style: bold;
+    width: 150px;
+    padding: 10px 20px; /* y-axis and x-axis */
+    margin-top: 10px;
+    font-size: medium;
+    border: 1px solid darkgreen;
+}
+
+#delete-btn{
+    background-color: white;
+    color: green;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+li a{ /* to only target anchor tags within a list or just use id tags*/
+    color: green;
+}
